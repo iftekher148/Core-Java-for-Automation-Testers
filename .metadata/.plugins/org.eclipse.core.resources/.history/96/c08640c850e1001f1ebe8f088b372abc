@@ -1,0 +1,19 @@
+package Day8;
+
+public class SingleDimentional {
+
+	public static void main(String[] args) {
+		//Approach 1:
+		int a[] = new int[5]; // Declaration and specify the length of the array
+		a[0]=10;
+		a[1]=20;
+		a[2]=30;
+		a[3]=40;
+		a[4]=50;
+		//Find the Length
+		int l=a.length;
+		System.out.println(l);
+
+	}
+
+}

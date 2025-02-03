@@ -1,0 +1,16 @@
+package Day9;
+
+import java.util.Arrays;
+
+public class UsingInbuiltMethodInArray {
+
+	public static void main(String[] args) {
+		int a[]= {10,40,50,38,68,41,57}; //unsorted array
+		 System.out.println("Before sorting the array: "+Arrays.toString(a));
+		 
+		 Arrays.sort(a);
+		 System.out.println("After Sorting the array:");
+
+	}
+
+}
