@@ -1,6 +1,5 @@
 package Day11;
 
-import java.text.StringCharacterIterator;
 
 public class StringComparison {
 
