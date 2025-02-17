@@ -1,0 +1,31 @@
+package Day12;
+
+public class PangramString {
+
+	public static void main(String[] args) {
+		String str1 = "The quick brown  jumps over the lazy dog" ;
+		int found =1; // Initially assume that it is a Pangram string
+		
+		str1=str1.toLowerCase(); // Convert the string into lowercase
+		
+		if(str1.length()<26) { // Must have length 26... a-z
+			System.out.println("The String is not Pangram String");
+		}
+		else {
+			for(char i='a';i<='z';i++) { // convert into asscii
+				
+				if(str1.indexOf(i)<0) { // indexOf return index number of a given string. We convert into asscii. 
+										//If any character is missing in the string it will return -1. So, the logic is "< 0"
+					//System.out.println("String is not Pangram String");
+					found=0;
+				}
+			}
+			if(found==1) {
+				System.out.println("The String is Pangram");
+			}
+		}
+		
+
+	}
+
+}

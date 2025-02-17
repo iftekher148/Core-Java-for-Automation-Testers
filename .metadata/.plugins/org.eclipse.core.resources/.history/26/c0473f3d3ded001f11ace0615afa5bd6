@@ -1,0 +1,12 @@
+package Day12;
+
+public class StringOfIndex {
+
+	public static void main(String[] args) {
+		String str1= "Rocktim";
+		int index=str1.indexOf('R');
+		System.out.println(index);
+
+	}
+
+}
