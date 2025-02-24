@@ -1,0 +1,20 @@
+package Day15;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		
+		// creating Employee object
+		Employee employee = new Employee();
+		
+		//assign value
+		employee.empID=123;
+		employee.empName="Rock";
+		employee.empSalary=1234.56;
+		
+		//calling the function
+		employee.employeeDetails();
+
+	}
+
+}

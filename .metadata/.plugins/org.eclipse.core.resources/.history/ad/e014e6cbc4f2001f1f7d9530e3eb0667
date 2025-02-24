@@ -1,0 +1,15 @@
+package Day16;
+
+public class MethodOverloadingAdditionMain {
+
+	public static void main(String[] args) {
+		 //create object of MethodOverloadingAddition class
+		MethodOverloadingAddition objAddition = new MethodOverloadingAddition();
+		
+		objAddition.a=20;
+		objAddition.b=30;
+		objAddition.sum();
+
+	}
+
+}

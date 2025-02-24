@@ -17,6 +17,13 @@
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="org.xml.sax.ContentHandler"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="Day14.Student"/>
+    <fullyQualifiedTypeName name="java.net.spi.InetAddressResolver.LookupPolicy"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="Day15.Hello"/>
+    <fullyQualifiedTypeName name="java.awt.geom.Path2D"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="Day15.Employee"/>
+    <fullyQualifiedTypeName name="Day15.DefaultConstructor"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

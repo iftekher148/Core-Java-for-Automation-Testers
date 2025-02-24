@@ -1,0 +1,9 @@
+package Day15;
+
+public class Hello {
+
+	//No Input Parameters → No Return Type
+	void Message1(){
+		System.out.println("Bangladesh");
+	}
+}

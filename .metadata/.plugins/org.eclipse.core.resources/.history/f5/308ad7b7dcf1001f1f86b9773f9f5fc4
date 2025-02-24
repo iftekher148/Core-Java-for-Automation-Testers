@@ -1,0 +1,16 @@
+package Day15;
+
+public class HelloMain {
+
+	public static void main(String[] args) {
+		
+		// create object of "Hello" class
+		Hello h1=new Hello();
+		
+		//calling the method
+		h1.Message1();
+		
+		System.out.println(h1.Message2());
+	}
+
+}

@@ -1,0 +1,20 @@
+package Day15;
+
+public class DefaultConstructor {
+	
+	//Declare variable--instance variable
+	int empID;
+	String empName;
+	double empSalary;
+	
+	DefaultConstructor(){// Method name is same a class name
+		System.out.println("Hello");
+	}
+	
+
+	public static void main(String[] args) {
+		
+		DefaultConstructor dConstructor=new DefaultConstructor();
+	}
+
+}
