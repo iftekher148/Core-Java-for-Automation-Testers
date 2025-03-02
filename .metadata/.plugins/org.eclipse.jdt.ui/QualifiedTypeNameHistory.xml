@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="Day10.InbuiltMethodInString5"/>
     <fullyQualifiedTypeName name="java.util.Spliterator"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.text.StringCharacterIterator"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
@@ -25,5 +24,12 @@
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="Day15.Employee"/>
     <fullyQualifiedTypeName name="Day15.DefaultConstructor"/>
+    <fullyQualifiedTypeName name="Day16.MethodOverloadingAddition"/>
+    <fullyQualifiedTypeName name="Day16.ConstructorOverloading"/>
+    <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+    <fullyQualifiedTypeName name="Day5.switchcaseDayOfWeak"/>
+    <fullyQualifiedTypeName name="Day16.OverloadMainMethod"/>
+    <fullyQualifiedTypeName name="Day6.printOddEven"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>

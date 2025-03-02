@@ -1,0 +1,22 @@
+package Day17;
+
+public class StaticStudent {
+	int roll;
+	char grade;
+	static String city="Dhaka";
+	
+	static void display1() {
+		System.out.println("Static Method");
+	}
+	
+	void display2() {
+		System.out.println("Non Static ");
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println(city);
+		
+	}
+
+}

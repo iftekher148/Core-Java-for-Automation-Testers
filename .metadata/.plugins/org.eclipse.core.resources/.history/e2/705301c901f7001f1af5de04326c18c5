@@ -1,0 +1,35 @@
+package Day17;
+
+public class ThisKeyword {
+	//variable
+	int x,y; // Instance variable-- mapped to object memory
+	
+	/*
+	ThisKeyword(int a,int b) {//local variable
+		x=a;
+		y=b;
+		//Initialize the variable value
+	}
+	*/
+	
+	//What happend if the instance & local variable have same name? it will show 0 output. 
+	// To avoid this we will use 'this' keyword
+	ThisKeyword(int x,int y) {//local variable
+		x=x;
+		y=y;
+	
+	}
+	
+	void display() {
+		System.out.println(x);
+		System.out.println(y);
+	}
+	
+	
+	public static void main(String[] args) {
+		ThisKeyword thisKeyword= new ThisKeyword(399,800);
+		thisKeyword.display();
+
+	}
+
+}
