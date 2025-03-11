@@ -30,6 +30,12 @@
     <fullyQualifiedTypeName name="Day5.switchcaseDayOfWeak"/>
     <fullyQualifiedTypeName name="Day16.OverloadMainMethod"/>
     <fullyQualifiedTypeName name="Day6.printOddEven"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Day19.A"/>
+    <fullyQualifiedTypeName name="Day19.B"/>
+    <fullyQualifiedTypeName name="Day19.Y"/>
+    <fullyQualifiedTypeName name="Day19.Z"/>
+    <fullyQualifiedTypeName name="Day19.Parent"/>
+    <fullyQualifiedTypeName name="Day19.Child1"/>
 </qualifiedTypeNameHistroy>
