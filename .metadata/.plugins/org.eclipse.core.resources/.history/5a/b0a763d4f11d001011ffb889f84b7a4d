@@ -1,0 +1,27 @@
+package Day20;
+
+class Car{
+	int speed=100;
+}
+
+class BMW extends Car{
+	int speed=160;// variable override
+	void displaySpeed() {
+		System.out.println(speed); // child class variable
+		System.out.println(super.speed); // immediate parent class variable
+	}
+	
+	
+}
+
+
+
+public class SuperClass {
+
+	public static void main(String[] args) {
+		BMW obj=new BMW();
+		obj.displaySpeed();
+
+	}
+
+}

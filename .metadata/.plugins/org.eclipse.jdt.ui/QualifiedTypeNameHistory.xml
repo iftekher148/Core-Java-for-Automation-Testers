@@ -31,11 +31,25 @@
     <fullyQualifiedTypeName name="Day16.OverloadMainMethod"/>
     <fullyQualifiedTypeName name="Day6.printOddEven"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="Day19.A"/>
     <fullyQualifiedTypeName name="Day19.B"/>
     <fullyQualifiedTypeName name="Day19.Y"/>
     <fullyQualifiedTypeName name="Day19.Z"/>
     <fullyQualifiedTypeName name="Day19.Parent"/>
     <fullyQualifiedTypeName name="Day19.Child1"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.ReadWriteLock"/>
+    <fullyQualifiedTypeName name="Day20.Bank"/>
+    <fullyQualifiedTypeName name="Day20.BOA"/>
+    <fullyQualifiedTypeName name="Day20.BOD"/>
+    <fullyQualifiedTypeName name="Day20.parentClass"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Day20.Base"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Day20.SubClass"/>
+    <fullyQualifiedTypeName name="Day20.testClass"/>
+    <fullyQualifiedTypeName name="javax.swing.text.AsyncBoxView.ChildLocator"/>
+    <fullyQualifiedTypeName name="Day20.child"/>
+    <fullyQualifiedTypeName name="Day20.Car"/>
+    <fullyQualifiedTypeName name="Day20.BMW"/>
+    <fullyQualifiedTypeName name="Day20.SuperClass"/>
 </qualifiedTypeNameHistroy>
