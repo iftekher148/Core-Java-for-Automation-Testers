@@ -1,0 +1,20 @@
+package Day22;
+
+public class WrapperClassExample {
+
+	public static void main(String[] args) {
+		//case 1: convert the string into other data type
+		//String str = "Rocktim"; //string canot convert int
+		String str = "12345";
+		int x= Integer.parseInt(str);
+		System.out.println(x);
+		
+		String str1 = "123.4567"; //double in string
+		String str2 = "786.44";
+		double d1 = Double.parseDouble(str1);
+		double d2 = Double.parseDouble(str2);
+		System.out.println(d1+d2); // can add string double
+
+	}
+
+}

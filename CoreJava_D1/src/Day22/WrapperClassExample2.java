@@ -1,0 +1,25 @@
+package Day22;
+
+public class WrapperClassExample2 {
+
+	public static void main(String[] args) {
+		//case 2: convert primitive data into string format
+		int a=10;
+		double d=12.32;
+		char c= 'C';
+		
+		String str1 = String.valueOf(a);
+		System.out.println(str1);
+		
+		String str2 = String.valueOf(d);
+		System.out.println(str2);
+		
+		Integer x = 100; //Wrapper class obj
+	//	String str = x;
+		String str = Integer.toString(x); // convert into string
+		System.out.println(str);
+		
+
+	}
+
+}
