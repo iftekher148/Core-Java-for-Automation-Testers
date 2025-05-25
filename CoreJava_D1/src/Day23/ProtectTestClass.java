@@ -1,0 +1,21 @@
+package Day23;
+
+public class ProtectTestClass {
+
+	protected int d =100;
+	protected void method1(){
+		System.out.println("protected Method");
+	}
+	
+	public static void main(String[] args) {
+		// protected class can be access within same class or other class of the same package or other package with child class obj using inheritance
+		
+		// protected class can be access within same class
+		//can use with in same class and other class within same package
+		ProtectTestClass obj = new ProtectTestClass();
+				System.out.println(obj.d); 
+				obj.method1();
+
+	}
+
+}

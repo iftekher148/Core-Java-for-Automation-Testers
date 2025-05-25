@@ -1,0 +1,12 @@
+package Day23;
+
+public class ProtectTestClassObject {
+
+	public static void main(String[] args) {
+		ProtectTestClass obj = new ProtectTestClass();
+		System.out.println(obj.d); 
+		obj.method1();
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package Day23;
+
+public class DefaultTestClassObject {
+	
+
+	public static void main(String[] args) {
+		//can use with in same class and other class within same package
+		// 'DefaultTestClassObject' different class but on the same package
+				DefaultTestClass obj = new DefaultTestClass();
+				System.out.println(obj.a); 
+				obj.method2();
+
+	}
+
+}
