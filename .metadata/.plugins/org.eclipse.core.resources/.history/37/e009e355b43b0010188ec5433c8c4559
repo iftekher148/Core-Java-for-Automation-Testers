@@ -1,0 +1,45 @@
+package Day23;
+
+import java.util.Scanner;
+
+public class ExceptionExample {
+
+	public static void main(String[] args) {
+		System.out.println("Start the Program:");
+		Scanner sc = new Scanner(System.in);
+		
+		/*
+		//Example 1:ArithmeticException
+		System.out.println("Enter Number:");
+		int num = sc.nextInt();
+		int a =(1000/num);
+		System.out.println(a);*/
+		
+		/*
+		//Example 2: ArrayIndexOutOfBoundsException
+		int arr[] = new int[5];
+		System.out.println("Enter position(0-4):");
+		int position= sc.nextInt();
+		
+		System.out.println("Enter Value:");
+		int value = sc.nextInt();
+		arr[position]=value;
+		System.out.println(arr[position]); */
+		
+		/*
+		//Example 3:NumberFormatException
+		//String num = "123456"; // valid number
+		 String num = "Rocktim";
+		int a = Integer.parseInt(num); // convert string to Number
+		System.out.println(a);*/
+		
+		//Example 4:NumberFormatException
+		String s = "Rocktim";
+		System.out.println(s.length());
+		
+		
+		System.out.println("End the Program:");
+
+	}
+
+}

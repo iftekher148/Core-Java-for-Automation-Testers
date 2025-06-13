@@ -1,0 +1,19 @@
+package Day23;
+
+import java.util.Scanner;
+
+public class ExceptionExample {
+
+	public static void main(String[] args) {
+		System.out.println("Start the Program:");
+		Scanner sc = new Scanner(System.in);
+		
+		//Example 1:
+		System.out.println("Enter Number:");
+		int num = sc.nextInt();
+		int a =(1000/num);
+		System.out.println(a);
+
+	}
+
+}
