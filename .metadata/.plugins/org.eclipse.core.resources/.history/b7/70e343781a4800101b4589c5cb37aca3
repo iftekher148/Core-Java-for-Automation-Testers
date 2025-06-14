@@ -1,0 +1,24 @@
+package Day25;
+
+// Declare Generic Class. 
+class Test <T>{
+	//int value;
+	T value; // On the Generic class we cann't declare specific data type
+	T id;
+	T key;
+}
+
+public class GenericDemo {
+
+	public static void main(String[] args) {
+		/*
+		Test test = new Test(); // create object of the Test class
+		test.value="Gello"// can not assing string value because of int declare
+				*/
+		
+		Test <Integer>test = new Test<>(); // '<>'== dimond symbol. Type declare during object creation on the Generic class
+		test.value=100;
+		
+	}
+
+}

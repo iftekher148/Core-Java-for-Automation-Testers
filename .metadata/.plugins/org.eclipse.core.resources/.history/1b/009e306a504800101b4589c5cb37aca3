@@ -1,0 +1,55 @@
+package Day26;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class HashsetDemo {
+
+	public static void main(String[] args) {
+		 // M:1 Declare 
+		HashSet hS = new HashSet();
+		//Set mySet = new HashSet(); // creating child class object
+		//HashSet<Integer>myhas = new HashSet<>();
+		
+		
+		 //Adding data into HashSet:
+		hS.add(100);
+		hS.add(100.33);
+		hS.add("Rocktim");
+		hS.add(true);
+		hS.add(null);
+		hS.add(100);
+		hS.add(null);
+		System.out.println(hS); 
+		
+		// Remove elemetn from the hash set
+		hS.remove(100); // pass the value to remove it
+		System.out.println(hS);
+		
+		// Insert data middle of the list..... it is not possible
+		
+		// Retriving specific elements using index??------ not possible
+		
+		// convert HasSet to ArrayList
+		ArrayList list = new ArrayList(hS);
+		System.out.println(list.get(2));
+		
+		// Retrive all the elemetn from the hasSet
+		// For retriving all the element the normal for loop is not possible == because no index. Echanched for loop 
+		
+		for(Object i: hS) {
+			System.out.println(i);
+		}
+		
+		// Using Iteration
+		Iterator it = hS.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		
+
+	}
+
+}

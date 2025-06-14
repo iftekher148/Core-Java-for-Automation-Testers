@@ -1,0 +1,38 @@
+package Day25;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArreyListDemo {
+
+	public static void main(String[] args) {
+		 // M:1 Declare or creation Object
+		 ArrayList arrayList = new ArrayList(); // Can insert different data type
+		 // M:2: using List
+		// Can insert different data type
+		 List list = new ArrayList(); // 'list' is the referance variable of the parent class. ArrayList() is child object
+		 // M:3: using Generic
+		 ArrayList<Integer> myarrayList = new ArrayList<>(); // only insert integer type
+		 
+		 
+		 
+		 //Adding data into ArrayList:
+		 arrayList.add(100); //Heterogeneous Data allowed. because it is raw type
+		 arrayList.add("Rocktim");
+		 arrayList.add(1009.67);
+		 
+		 int a=(int) arrayList.get(0); // 'int a= arrayList.get(0);' -- This is the prblem. ArratList work only Object. object can not convert into 
+		 								//int. You need to type casting. Or Declare using Generic 
+		 
+		 //Size of the Array List
+		 int size=arrayList.size();
+		 System.out.println(size);
+		 
+		 //Print the value of the array list
+		 System.out.println(arrayList);
+		 
+		 
+		 
+	}
+
+}

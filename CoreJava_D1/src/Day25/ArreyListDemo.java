@@ -1,0 +1,97 @@
+package Day25;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class ArreyListDemo {
+
+	public static void main(String[] args) {
+		 // M:1 Declare or creation Object
+		 ArrayList arrayList = new ArrayList(); // Can insert different data type
+		 // M:2: using List
+		// Can insert different data type
+		 List list = new ArrayList(); // 'list' is the referance variable of the parent class. ArrayList() is child object
+		 // M:3: using Generic
+		 ArrayList<Integer> myarrayList = new ArrayList<>(); // only insert integer type
+		 //M:4
+		 List <Integer >list1 = new ArrayList<>(); 
+		 
+		 
+		 
+		 //Adding data into ArrayList:
+		 // Add means--> adding the data last of the index
+		 arrayList.add(100); //Heterogeneous Data allowed. because it is raw type
+		 arrayList.add("Rocktim");
+		 arrayList.add(1009.67);
+		 arrayList.add(100);
+		 arrayList.add(100);
+		 arrayList.add(null);
+		 int a=(int) arrayList.get(0); // 'int a= arrayList.get(0);' -- This is the prblem. ArratList work only Object. object can not convert into 
+		 								//int. You need to type casting. Or Declare using Generic 
+		 
+		 //Size of the Array List
+		 int size=arrayList.size();
+		 System.out.println(size);
+		 
+		 //Print the value of the array list
+		 System.out.println(arrayList);  // Insertion order is preserved - index
+		 
+		 //Delete item 
+		 arrayList.remove(4);
+		 System.out.println(arrayList);
+		 
+		 // Insert any item
+		 // Insert Means--> specify the index
+		 arrayList.add(2, "Inserting New Element");
+		 System.out.println(arrayList);
+		 
+		 // Modify/update the item
+		 arrayList.set(5,true);
+		 System.out.println(arrayList);
+		 
+		 //retrive  the value specific index
+		 System.out.println(arrayList.get(1));
+		 
+		 
+		 /*
+		 // M 1| Using for loop : Get all the element of the arrayList with index
+		 
+		 for(int i=0; i<=arrayList.size()-1;i++) { // use '-1' because start index=0
+			 System.out.println(arrayList.get(i));
+		 }*/
+		 
+		 /*
+		// M 2| Using for each/ enhanched for loop :
+		 for(Object i : arrayList) { // AS it is RAW/object type, so declare 'Object'. didn;t specify any data type
+			 System.out.println(i);
+		 }*/
+		 
+			// M 2| Using Iterator ===  is a Interface in java collection
+		 Iterator it = arrayList.iterator();
+		 while(it.hasNext()){ //'hasNext()' build in method in java that returns True or false. if it find any element in the arraylist, it will retuen true and loop will execute. If no element then return false don execute
+			 System.out.println(it.next()); // 'next()' method move to the next position and retrive the value 
+		 }
+		 
+		 // Checking the rrayList is empty or not
+		 System.out.println(arrayList.isEmpty());
+		 
+		 
+		 // Remove some element from the array list
+		 ArrayList list2 = new ArrayList(); // create 2nd arraylist
+		 list2.add("Inserting New Element");
+		 list2.add(100);
+		 list2.add(true);
+		 
+		 arrayList.removeAll(list2);
+		 System.out.println(arrayList);
+		 
+		 // Remove all the element from the array list
+		 arrayList.clear();
+		 System.out.println(arrayList);
+		 
+		 
+		 
+	}
+
+}

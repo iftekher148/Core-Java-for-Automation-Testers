@@ -1,0 +1,56 @@
+package Day25;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArreyListDemo {
+
+	public static void main(String[] args) {
+		 // M:1 Declare or creation Object
+		 ArrayList arrayList = new ArrayList(); // Can insert different data type
+		 // M:2: using List
+		// Can insert different data type
+		 List list = new ArrayList(); // 'list' is the referance variable of the parent class. ArrayList() is child object
+		 // M:3: using Generic
+		 ArrayList<Integer> myarrayList = new ArrayList<>(); // only insert integer type
+		 //M:4
+		 List <Integer >list1 = new ArrayList<>(); 
+		 
+		 
+		 
+		 //Adding data into ArrayList:
+		 // Add means--> adding the data last of the index
+		 arrayList.add(100); //Heterogeneous Data allowed. because it is raw type
+		 arrayList.add("Rocktim");
+		 arrayList.add(1009.67);
+		 arrayList.add(100);
+		 arrayList.add(100);
+		 arrayList.add(null);
+		 int a=(int) arrayList.get(0); // 'int a= arrayList.get(0);' -- This is the prblem. ArratList work only Object. object can not convert into 
+		 								//int. You need to type casting. Or Declare using Generic 
+		 
+		 //Size of the Array List
+		 int size=arrayList.size();
+		 System.out.println(size);
+		 
+		 //Print the value of the array list
+		 System.out.println(arrayList);  // Insertion order is preserved - index
+		 
+		 //Delete item 
+		 arrayList.remove(4);
+		 System.out.println(arrayList);
+		 
+		 // Insert any item
+		 // Insert Means--> specify the index
+		 arrayList.add(2, "Inserting New Element");
+		 System.out.println(arrayList);
+		 
+		 // Modify the item
+		 arrayList.set(5,true);
+		 System.out.println(arrayList);
+		 
+		 
+		 
+	}
+
+}

@@ -1,0 +1,28 @@
+package Day26;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashsetDemo {
+
+	public static void main(String[] args) {
+		 // M:1 Declare 
+		HashSet hS = new HashSet();
+		//Set mySet = new HashSet(); // creating child class object
+		//HashSet<Integer>myhas = new HashSet<>();
+		
+		
+		 //Adding data into HashSet:
+		hS.add(100);
+		hS.add(100.33);
+		hS.add("Rocktim");
+		hS.add(true);
+		hS.add(null);
+		hS.add(100);
+		hS.add(null);
+		System.out.println(hS);
+		
+
+	}
+
+}

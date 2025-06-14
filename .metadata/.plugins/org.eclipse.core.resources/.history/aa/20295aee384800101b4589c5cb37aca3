@@ -1,0 +1,27 @@
+package Day25;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArreyListDemo {
+
+	public static void main(String[] args) {
+		 // M:1 Declare or creation Object
+		 ArrayList arrayList = new ArrayList(); // Can insert different data type
+		 // M:2: using List
+		// Can insert different data type
+		 List list = new ArrayList(); // 'list' is the referance variable of the parent class. ArrayList() is child object
+		 // M:3: using Generic
+		 ArrayList<Integer> myarrayList = new ArrayList<>(); // only insert integer type
+		 
+		 
+		 
+		 //Adding data into ArrayList:
+		 arrayList.add(100);
+		 arrayList.add("Rocktim");
+		 arrayList.add(1009.67);
+		 
+		 
+	}
+
+}
